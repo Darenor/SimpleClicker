@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66b5f8ff04e84a54b25d25f77d5c3996, type: 3}
+  m_Name: BusinessConfig
+  m_EditorClassIdentifier: 
+  Businesses:
+  - id: 0
+    BaseNameKey: Business1
+    BaseIncome: 3
+    BaseCost: 3
+    IncomeDelay: 3
+    Upgrade1:
+      NameKey: Upgrade1
+      Cost: 50
+      IncomeMultiplier: 50
+    Upgrade2:
+      NameKey: Upgrade2
+      Cost: 400
+      IncomeMultiplier: 100
+  - id: 1
+    BaseNameKey: Business2
+    BaseIncome: 40
+    BaseCost: 40
+    IncomeDelay: 6
+    Upgrade1:
+      NameKey: Upgrade1
+      Cost: 1200
+      IncomeMultiplier: 100
+    Upgrade2:
+      NameKey: Upgrade2
+      Cost: 4000
+      IncomeMultiplier: 200
+  - id: 2
+    BaseNameKey: Business3
+    BaseIncome: 200
+    BaseCost: 200
+    IncomeDelay: 10
+    Upgrade1:
+      NameKey: Upgrade1
+      Cost: 6000
+      IncomeMultiplier: 100
+    Upgrade2:
+      NameKey: Upgrade2
+      Cost: 20000
+      IncomeMultiplier: 150
+  - id: 3
+    BaseNameKey: Business4
+    BaseIncome: 1000
+    BaseCost: 1000
+    IncomeDelay: 17
+    Upgrade1:
+      NameKey: Upgrade1
+      Cost: 15000
+      IncomeMultiplier: 100
+    Upgrade2:
+      NameKey: Upgrade2
+      Cost: 50000
+      IncomeMultiplier: 200
+  - id: 4
+    BaseNameKey: Business5
+    BaseIncome: 5000
+    BaseCost: 5000
+    IncomeDelay: 30
+    Upgrade1:
+      NameKey: Upgrade1
+      Cost: 15000
+      IncomeMultiplier: 100
+    Upgrade2:
+      NameKey: Upgrade2
+      Cost: 50000
+      IncomeMultiplier: 200

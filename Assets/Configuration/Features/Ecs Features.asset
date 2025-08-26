@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aefc55944d445ffb890b045965b9528, type: 3}
+  m_Name: Ecs Features
+  m_EditorClassIdentifier: 
+  features:
+  - {fileID: 11400000, guid: d9bb1485e4057ea409857bf68b69a591, type: 2}
+  - {fileID: 11400000, guid: 53b6f48807bd64a49b10c5f75440bc48, type: 2}
+  - {fileID: 11400000, guid: 9dcd3423926ad6645abf9823867ff399, type: 2}
+  - {fileID: 11400000, guid: 68ee19953e0586d4e84d0746647273b3, type: 2}
+  - {fileID: 11400000, guid: 98fcb28be4aa01c41af57fa1206a95d5, type: 2}
+  - {fileID: 11400000, guid: dd1cc0d2badf26f4fbd035087f2c2993, type: 2}
