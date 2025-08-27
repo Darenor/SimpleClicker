@@ -4,7 +4,6 @@ using Features.UI.UIBase.Data;
 using LeoCore;
 using Leopotam.EcsLite;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace MonoScripts
 {

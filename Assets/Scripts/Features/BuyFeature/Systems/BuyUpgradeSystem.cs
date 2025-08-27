@@ -44,7 +44,6 @@ namespace Features.BuyFeature.Systems
         {
             foreach (var requestEntity in _requestFilter)
             {
-                // var requestUpdateEntity = _world.NewEntity();
                 ref var request = ref _requestPool.Get(requestEntity);
 
                 foreach (var balanceEntity in _balanceFilter)

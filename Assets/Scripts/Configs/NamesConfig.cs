@@ -1,7 +1,7 @@
-﻿namespace Configs
-{
-    using UnityEngine;
+﻿using UnityEngine;
 
+namespace Configs
+{
     [CreateAssetMenu(fileName = "NamesConfig", menuName = "Configs/NameConfig")]
     public class NamesConfig : ScriptableObject
     {

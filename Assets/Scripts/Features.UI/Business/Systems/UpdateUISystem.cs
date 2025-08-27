@@ -1,7 +1,6 @@
 ﻿using System;
 using Components;
 using Features.UI.Business.Components;
-using Features.UI.UIBase.Components;
 using Leopotam.EcsLite;
 
 namespace Features.UI.Business.Systems

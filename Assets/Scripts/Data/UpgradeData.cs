@@ -1,4 +1,4 @@
-﻿namespace Configs
+﻿namespace Data
 {
     [System.Serializable]
     public class UpgradeData

@@ -5,7 +5,6 @@ using Features.UI.UIBase.Data;
 using Leopotam.EcsLite;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Features.UI.Business.Views
@@ -75,10 +74,10 @@ namespace Features.UI.Business.Views
             float income2Multiplier)
         {
             nameText.text = namesConfig.GetName(baseNameKey);
-            levelText.text = $"Lvl: {(isOwned ? level.ToString() : "0")}";
-            incomeText.text = $"Доход {currentIncome:F0}";
+            levelText.text = $"Lvl:\n  {(isOwned ? level.ToString() : "0")}";
+            incomeText.text = $"Доход:\n {currentIncome:F0}$";
             progressBar.value = progress % 1f;
-            levelUpCostText.text = $"Цена:{levelUpCost:F0}";
+            levelUpCostText.text = $"Цена:{levelUpCost:F0}$";
             levelUpButton.interactable = true;
             upgrade1NameText.text = namesConfig.GetName(upgrade1NameKey);
             upgrade2NameText.text = namesConfig.GetName(upgrade2NameKey);
@@ -92,7 +91,7 @@ namespace Features.UI.Business.Views
             }
             else
             {
-                upgrade1PriceText.text =  $"Цена: {upgrade1Cost:F0}";
+                upgrade1PriceText.text =  $"Цена: {upgrade1Cost:F0}$";
                 upgrade1Button.interactable = true;
             }
 
@@ -103,7 +102,7 @@ namespace Features.UI.Business.Views
             }
             else
             {
-                upgrade2PriceText.text = $"Цена: {upgrade2Cost:F0}";
+                upgrade2PriceText.text = $"Цена: {upgrade2Cost:F0}$";
                 upgrade2Button.interactable = true;
             }
         }

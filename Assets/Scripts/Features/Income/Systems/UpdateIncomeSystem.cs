@@ -1,12 +1,10 @@
 ﻿using System;
 using Components;
 using Features.Income.Components;
-using Features.UI.UIBase.Components;
 using Leopotam.EcsLite;
 
 namespace Features.Income.Systems
 {
-
     [Serializable]
     public class UpdateIncomeSystem : IEcsInitSystem, IEcsRunSystem
     {

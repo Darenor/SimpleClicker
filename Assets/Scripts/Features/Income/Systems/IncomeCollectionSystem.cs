@@ -44,7 +44,6 @@ namespace Features.Income.Systems
                     }
                 }
             }
-
         }
     }
 }

@@ -1,7 +1,6 @@
 ﻿using Components;
 using Features.Income.Components;
 using Features.UI.Business.Components;
-using Features.UI.UIBase.Components;
 using Features.UI.UIBase.Data;
 using Leopotam.EcsLite;
 using TMPro;
@@ -34,8 +33,7 @@ namespace Features.UI.Business.Views
 
         public void UpdateBalance(float balance)
         {
-            BalanceText.text = $"Баланс: {balance:F0}";
+            BalanceText.text = $"Баланс: {balance:F0}$";
         }
     }
 }
-

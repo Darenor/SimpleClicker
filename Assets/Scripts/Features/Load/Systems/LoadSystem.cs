@@ -73,4 +73,3 @@ namespace Features.Load.Systems
         }
     }
 }
-

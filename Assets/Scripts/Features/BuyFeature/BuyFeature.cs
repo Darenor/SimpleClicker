@@ -1,5 +1,4 @@
 ﻿using Features.BuyFeature.Systems;
-using Features.Load.Systems;
 using LeoCore;
 using Leopotam.EcsLite;
 using UnityEngine;

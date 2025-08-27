@@ -36,4 +36,3 @@ namespace Features.UI.UIBase.Systems
         }
     }
 }
-

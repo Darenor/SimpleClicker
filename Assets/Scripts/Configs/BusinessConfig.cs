@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Data;
 
 namespace Configs
 {

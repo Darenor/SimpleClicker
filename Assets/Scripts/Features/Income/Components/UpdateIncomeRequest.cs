@@ -1,7 +1,7 @@
-﻿namespace Features.Income.Components
-{
-    using System;
+﻿using System;
 
+namespace Features.Income.Components
+{
     [Serializable]
     public struct UpdateIncomeRequest
     {
