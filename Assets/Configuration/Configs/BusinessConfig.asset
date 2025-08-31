@@ -72,9 +72,9 @@ MonoBehaviour:
     IncomeDelay: 30
     Upgrade1:
       NameKey: Upgrade1
-      Cost: 15000
-      IncomeMultiplier: 100
+      Cost: 100000
+      IncomeMultiplier: 200
     Upgrade2:
       NameKey: Upgrade2
-      Cost: 50000
-      IncomeMultiplier: 200
+      Cost: 500000
+      IncomeMultiplier: 400
